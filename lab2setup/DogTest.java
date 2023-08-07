@@ -12,5 +12,7 @@ public class DogTest {
     public void testLarge() {
         Dog d = new Dog(20);
         assertEquals("bark", d.noise());
+        Dog s=new Dog(15);
+        System.out.println("my name.");
     }
 }
